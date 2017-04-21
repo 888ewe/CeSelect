@@ -81,6 +81,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
             }
+            
             if (requestCode == CE_CODE && data != null) {//相册
                 //获取选择器返回的数据
                 ArrayList<String> images = data.getStringArrayListExtra(
